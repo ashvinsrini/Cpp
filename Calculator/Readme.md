@@ -16,4 +16,5 @@ if 2 then enter the matrix calculator mode.
     
     - Please enter the matrix dimensions
     - Enter the matrix elements.
-    - Enter operation + for addition, - for subtraction, * for multiplication, / for division, X for matrix multiplication.
+    - Enter operation + for addition, - for subtraction, * for multiplication, / for division, X for 
+    matrix multiplication.
