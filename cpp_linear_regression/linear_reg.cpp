@@ -91,12 +91,12 @@ float cost_derivative_for_algo(vector <float> x, vector <float> y, int mult, cha
     if (bias == 'T')
     {
       sum+= (y[i]-(wts[0]+wts[1]*x[i]))*mult*2;
-      t = (y[i]-(wts[0]+wts[1]*x[i]))*mult*2;
+      //t = (y[i]-(wts[0]+wts[1]*x[i]))*mult*2;
      }
     else
     {
       sum+= (y[i]-(wts[0]+wts[1]*x[i]))*x[i]*mult*2;
-      t = (y[i]-(wts[0]+wts[1]*x[i]))*x[i]*mult*2;
+      //t = (y[i]-(wts[0]+wts[1]*x[i]))*x[i]*mult*2;
     }
 
 
