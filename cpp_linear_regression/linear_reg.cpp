@@ -20,8 +20,8 @@ int main()
   float noise;
   for (int i = 0; i< 1000; i++)
   {
-     noise = 0.01*(rand()%100);
-     input.push_back(i+1+noise);
+     noise = 0.001*(rand()%100);
+     input.push_back(i+1);
      output.push_back(3+2*(i+1+noise));
      //cout << input[i]<< endl;
      //cout << output[i]<< endl;
